@@ -1,0 +1,17 @@
+mark{
+    background-color: #E6E6FA;
+}
+
+h1, h3{
+    font-family: "Archivo Black", sans-serif;
+}
+
+h3{
+    text-decoration: 4px underline #800080;
+    text-underline-offset: 4px;
+}
+
+p, li, label{
+    font-family: "Sen", sans-serif;
+}
+
