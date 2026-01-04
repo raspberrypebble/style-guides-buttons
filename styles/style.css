@@ -62,7 +62,12 @@ header h1{
     top: 50px;
     padding-top: 50px;
     padding-bottom: 80px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Google Sans Flex';
+    letter-spacing: 2px;
+    font-size: 60px;
+    color:#eeeff0;
+    font-weight: 900;
+    text-shadow: 3px 3px #d6d6d6, -2px -2px #ffffff;
 }
 
 main{
@@ -192,6 +197,7 @@ footer #name{
 /*Button Styling!!*/
 /*button01 has no styling, it is the default button*/
 
+/*button 02 styling: simple and rounded*/
 #button02{
     height: 30px;
     width: 90px;
@@ -201,6 +207,7 @@ footer #name{
     color:#b5bfc6
 }
 
+/*button 03 styling: neumorphic*/
 #button03{
     background-color: #e2e6ee;
     border: none;
@@ -215,10 +222,46 @@ footer #name{
     font-size: 14px;
 }
 
+/*button 04 styling: retro*/
 #button04{
     height: 40px;
     width: 90px;
-    border: 1px solid red;
-    box-shadow: 5px 5px red;
-    color: red;
+    border: 1px solid hotpink;
+    box-shadow: 5px 5px hotpink;
+    color: hotpink;
+    font-family:"Atkinson Hyperlegible Mono", sans-serif;
+    font-weight: 600;
+    background-color: pink;
+}
+
+/*button 05 styling: liquid glass*/
+/*this one was a little tough, if you change the background colors, it doesn't look right, I will fix it later*/
+#button05{
+    height: 40px;
+    width: 100px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgba(250, 250, 250, 0.3);
+    box-shadow: 0.5px 0.6px 1px #fff;
+    box-shadow: inset 0 0 15px rgba(250, 250, 250, 0.3);
+    color: white;
+    font-family: 'Sen';
+}
+#button05Area{
+    background-image: radial-gradient(circle at 60%  70%,blue 5%,rgb(119, 233, 214)90%);
+    height: 50px;
+    width: 110px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*button 06 styling: pixel*/
+/*there is not really a shortcut to this one, the easiest way is to make your own button image*/
+#button06{
+    height: 30px;
+    width: 90px;
+    border: 4px solid black;
+    clip-path: polygon()
 }
