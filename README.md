@@ -29,10 +29,13 @@
     <label for="stepOne">HTML matches format already written</label>
     <br>
     <input type="checkbox" id="stepTwo" name="stepTwo">
-    <label for="stepTwo">Unique CSS added to style the button</label>
+    <label for="stepTwo">Create a new branch, push changes to that branch, create a pull request</label>
     <br>
     <input type="checkbox" id="stepThree" name="stepThree">
-    <label for="stepThree">None of the other code is broken</label>
+    <label for="stepThree">Unique CSS added to style the button</label>
+    <br>
+    <input type="checkbox" id="stepFour" name="stepFour">
+    <label for="stepFour">None of the other code is broken</label>
 </form>
 
 <h3>Preview</h3>
